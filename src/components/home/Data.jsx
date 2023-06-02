@@ -29,7 +29,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Front End | Web Developer</h3>
       <p className="home__description"> Mahasiswi Sistem Informasi yang sedang menuju semester 7. Memiliki pengalaman Studi 
-Independen sebagai Fullstack Web Developer dan berhasil membuat proyek individu maupun kelompok 
+Independen sebagai <b> Fullstack Web Developer</b> dan berhasil membuat proyek individu maupun kelompok 
 dengan nilai yang sangat baik.</p>
 
       <a href="#contact" className="button button--flex">

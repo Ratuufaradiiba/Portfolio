@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Haloo! Saya belajar dibidang Fullstack Web Developer dan UI/UX Designer. Saya telah mengikuti Studi Independen dan Course Online untuk mempelajari berbagai bahasa pemrograman, framework, dan alat desain yang
+            Haloo! Saya belajar dibidang <b>Fullstack Web Developer</b> dan <b>UI/UX Designer</b>. Saya telah mengikuti Studi Independen dan Course Online untuk mempelajari berbagai bahasa pemrograman, framework, dan alat desain yang
             dibutuhkan untuk membuat website yang fungsional dan estetis.
           </p>
 
