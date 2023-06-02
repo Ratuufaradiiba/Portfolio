@@ -28,7 +28,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Universitas Bina Sarana Informatika</h3>
-                <span className="qualification__subtitle">Bekasi - Universitas</span>
+                <span className="qualification__subtitle">Sistem Informasi - Universitas</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2020 - Sekarang
                 </div>
@@ -49,8 +49,8 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">NF Computer | Fullstack Web Dev </h3>
-                <span className="qualification__subtitle">Bekasi - MBKM Studi Independen</span>
+                <h3 className="qualification__title">NF Computer</h3>
+                <span className="qualification__subtitle">Fullstack Web Dev - MBKM Studi Independen</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> Agustus 2022 - Januari 2023
                 </div>
@@ -60,7 +60,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">SMK Negeri 3 Bekasi</h3>
-                <span className="qualification__subtitle">Bekasi - Sekolah Menengah Kejuruan</span>
+                <span className="qualification__subtitle">Perhotelan - Sekolah Menengah Kejuruan</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2016 - 2019
                 </div>
