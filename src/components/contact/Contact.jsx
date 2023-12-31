@@ -5,11 +5,15 @@ import './contact.css';
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_e03txnb', 'template_5hto5wt', form.current, 'rs9vFvkOWrg_3mgs0')
-    e.target.reset()
+    try {
+      await emailjs.sendForm('service_e03txnb', 'template_5hto5wt', form.current, 'rs9vFvkOWrg_3mgs0')
+      e.target.reset()
+    } catch (error) {
+    console.error('Error sending email:', error);
+    }
   };
   return (
     <section className="contact section" id="contact">

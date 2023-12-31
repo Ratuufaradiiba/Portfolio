@@ -28,8 +28,7 @@ const Data = () => {
         </svg>
       </h1>
       <h3 className="home__subtitle">Front End | Web Developer</h3>
-      <p className="home__description"> Mahasiswi Sistem Informasi yang sedang menuju semester 7. Memiliki pengalaman Studi 
-Independen sebagai <b> Fullstack Web Developer</b> dan berhasil membuat proyek individu maupun kelompok 
+      <p className="home__description"> Mahasiswi Sistem Informasi yang sedang menuju semester 8. Memiliki pengalaman sebagai <b>Full Stack Web Developer</b> dan berhasil membuat proyek individu maupun kelompok 
 dengan nilai yang sangat baik.</p>
 
       <a href="#contact" className="button button--flex">
