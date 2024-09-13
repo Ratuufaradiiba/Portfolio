@@ -17,8 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Haloo! Saya belajar dibidang <b>Fullstack Web Developer</b> dan <b>UI/UX Designer</b>. Saya telah mengikuti Studi Independen dan Course Online untuk mempelajari berbagai bahasa pemrograman, framework, dan alat desain yang
-            dibutuhkan untuk membuat website yang fungsional dan estetis.
+          Haloo! Saya memiliki minat besar dalam <b>Teknologi Informasi</b> dan <b>Desain UI/UX</b>. Terampil dalam <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b>, <b>Laravel</b>, <b>CodeIgniter</b>, dan <b>Tailwind CSS</b>, serta berkomitmen untuk terus belajar dan siap berkontribusi dalam tim yang inovatif dengan solusi web yang efektif dan ramah pengguna.
           </p>
 
           <a download="" href={CV} className="button button flex">

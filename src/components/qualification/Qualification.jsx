@@ -10,7 +10,7 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">Pendidikan Ku</span>
+      <span className="section__subtitle">Riwayat Ku</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -25,12 +25,30 @@ const Qualification = () => {
 
         <div className="qualification__sections">
           <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
+          <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+              <h3 className="qualification__title">Dicoding Indonesia</h3>
+                <span className="qualification__subtitle">Belajar Pemrograman Web Dasar</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> Sep 2023
+                </div>
+                
+              </div>
+            </div>
+            
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Universitas Bina Sarana Informatika</h3>
-                <span className="qualification__subtitle">Sistem Informasi - Universitas</span>
+              <h3 className="qualification__title">NF Computer</h3>
+                <span className="qualification__subtitle">Fullstack Web Dev - MSIB Studi Independen</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Sekarang
+                  <i className="uil uil-calendar-alt"></i> Agustus 2022 - Desember 2022
                 </div>
               </div>
 
@@ -49,11 +67,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">NF Computer</h3>
-                <span className="qualification__subtitle">Fullstack Web Dev - MBKM Studi Independen</span>
+              <h3 className="qualification__title">Universitas Bina Sarana Informatika</h3>
+                <span className="qualification__subtitle">Sistem Informasi - Universitas</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> Agustus 2022 - Januari 2023
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2024
                 </div>
+                
               </div>
             </div>
 
@@ -84,8 +103,8 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Front End</h3>
-                <span className="qualification__subtitle">Revamp Company Profile Digital Health - Jakarta</span>
+                <h3 className="qualification__title">Full Stack as Front End</h3>
+                <span className="qualification__subtitle">Revamp Company Profile Digital Health - PT INDI Teknokreasi Internasional</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> Agustus 2023 - Desember 2023
                 </div>
