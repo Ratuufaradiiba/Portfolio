@@ -79,7 +79,9 @@ svg#mysql,
 svg#laravel,
 svg#php,
 svg#tailwind-css,
-svg#bootstrap {
+svg#bootstrap,
+svg#node,
+svg#express {
   margin-right: 1.5rem;
 }
 
